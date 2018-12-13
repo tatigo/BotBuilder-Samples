@@ -270,7 +270,3 @@ paket-files/
 .vscode/
 /javascript_nodejs/.DS_Store
 .DS_Store
-samples/javascript_nodejs/26.transcript-logger/package.json
-samples/javascript_nodejs/25.logger/package.json
-samples/csharp_webapi/13.basic-bot/README.md
-samples/csharp_webapi/11.qna-maker/README.md
