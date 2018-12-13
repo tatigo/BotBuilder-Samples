@@ -1,0 +1,41 @@
+{
+    "name": "loggerbot",
+    "version": "1.0.0",
+    "description": "Demonstrate the transcript logging middleware in the nodejs SDK.",
+    "main": "index.js",
+    "scripts": {
+        "start": "node ./index.js",
+        "watch": "nodemon ./index.js",
+        "eslint": "./node_modules/.bin/eslint .",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Microsoft",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Microsoft/BotBuilder-Samples.git"
+    },
+    "dependencies": {
+        "botbuilder": "^4.0.6",
+        "botbuilder-dialogs": "^4.0.6",
+        "botframework-config": "^4.0.6",
+        "dotenv": "^6.0.0",
+        "node-fetch": "^2.2.0",
+        "restify": "^6.3.4"
+    },
+    "devDependencies": {
+<<<<<<< HEAD:samples/javascript_nodejs/25.logger-bot/package.json
+        "eslint": "^5.6.0",
+=======
+        "eslint": "^5.9.0",
+>>>>>>> 75fa6e0f6024c8ee361d9303437b0be5cbd7df75:samples/javascript_nodejs/25.logger/package.json
+        "eslint-config-standard": "^12.0.0",
+        "eslint-plugin-import": "^2.14.0",
+        "eslint-plugin-node": "^7.0.1",
+        "eslint-plugin-promise": "^4.0.1",
+        "eslint-plugin-standard": "^4.0.0",
+        "nodemon": "^1.18.4",
+        "@types/node": "10.10.2",
+        "@types/restify": "7.2.4"
+    }
+}
